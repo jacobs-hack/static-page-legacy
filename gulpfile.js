@@ -9,38 +9,39 @@ var concat = require("gulp-concat");
 var uglify = require("gulp-uglify");
 var imagemin = require("gulp-imagemin");
 var compass = require('gulp-compass');
+var watch = require("gulp-watch");
 var merge = require('merge-stream');
 var gutil = require("gulp-util");
 
 // make build directory
 var paths = {
     styles: {
-        src: './stylesheets/scss/*.scss',
-        config: './config.rb',
-        output: './dist/stylesheets/'
+        src: "./stylesheets/scss/*.scss",
+        config: "./config.rb",
+        output: "./dist/stylesheets/"
     },
     assets: {
         images: {
             src: [ 
-                './assets/images/**/*.gif', // GIFs
-                './assets/images/**/*.jpg', // JPGs
-                './assets/images/**/*.png', // PNGs 
-                './assets/images/**/*.svg' // SVGs
+                "./assets/images/**/*.gif", // GIFs
+                "./assets/images/**/*.jpg", // JPGs
+                "./assets/images/**/*.png", // PNGs 
+                "./assets/images/**/*.svg" // SVGs
             ],
-            output: './dist/assets/images/'
+            output: "./dist/assets/images/"
         },
         pdf: {
-            src: './*.pdf',
-            output: './dist/'                
+            src: "./*.pdf",
+            output: "./dist/"                
         }
     },
     html: {
-        src: './*.html',
-        output: './dist/'
+        src: "./*.html",
+        output: "./dist/"
     },
     js: {
-        src: './js/**/*.js',
-        output: './dist/js'
+        src: "./js/**/*.js",
+        output: "./dist/js"
     }
 };
 
@@ -95,6 +96,15 @@ gulp.task('images', function(){
     });
     return merge(tasks);
 });
+
+gulp.task('watch', function(){
+    gulp.watch(paths.assets.images.src, ['images']);
+    gulp.watch(paths.styles.src, ['compass']);
+    gulp.watch(paths.js.src, ['compileJS']);
+    gulp.watch(paths.html.src,  ['html']);
+    gulp.watch(paths.assets.pdf.src, ['compilePdf']);
+});
+
 
 gulp.task('default',['compass', 'compilePdf', 'compileJS', 'html', 'images'],function(){
    // default gulp tasks
