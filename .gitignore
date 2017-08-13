@@ -6,6 +6,9 @@ stylesheets/.sass-cache/
 # log files
 *.log
 
+### Jekyll ###
+_site
+
 ### Code ###
 # Visual Studio Code - https://code.visualstudio.com/
 .settings/
