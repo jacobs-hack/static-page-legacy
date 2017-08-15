@@ -24,7 +24,8 @@ Make sure to have the required apps running on you machine. Then execute
 ~~~bash
 npm i -g yarn gulp serve
 yarn install 
-npm run run:dev
+npm run build:dev
+(on another terminal) npm run serve:dev
 ~~~
 
 
