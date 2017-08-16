@@ -2,14 +2,22 @@ var breakWidth = 768;
 
 $(document).ready(function() {
 
-  var today = new Date();
-  if (today.getDate() == 1 && today.getMonth() == 3) {
-    $('body').addClass('foolsday');
-  }
-
+  /* ===========================================================================
+     Page entry animations and initial setup
+     =========================================================================== */
+  
   $('#main')
     .transition('fade in', 1500);
 
+  var today = new Date();
+  if (today.getDate() == 1 && today.getMonth() == 3) {
+    document.querySelector('body').className = "foolsday"; 
+  }
+  
+  
+  /* ===========================================================================
+     Table Of Content Implementation
+     =========================================================================== */
   var $bodytag = $('html, body');
   var $tags = $('#goto-about, #goto-faq, #goto-reg-now, #goto-footer, #goto-team');
   $tags.click(function(e) {
@@ -19,18 +27,21 @@ $(document).ready(function() {
       $bodytag.animate({
         scrollTop: $('#'+elementName).offset().top
       }, 800);
-    } else {
+    } 
+    else {
       $bodytag.animate({
         scrollTop: $('#'+elementName).offset().top - 45
       }, 800);
     }
   });
 
-  hideAnswers();
+  /* ===========================================================================
+     Registration Implementation
 
-
-  // Adapted from http://stackoverflow.com/questions/8425701/ajax-mailchimp-signup-form-integration
-  // I only have one form on the page but you can be more specific if need be.
+     Adapted from http://stackoverflow.com/questions/8425701/ajax-mailchimp-signup-form-integration. 
+     Currently disabled because registration is not open. 
+     =========================================================================== */
+  /*
   var $form = $('form');
 
   if ( $form.length > 0 ) {
@@ -62,8 +73,13 @@ $(document).ready(function() {
       }
     });
   }
+  
+  */
 
-  //code for hiding answers
+  /* ===========================================================================
+     Page responsiveness
+     =========================================================================== */
+  hideAnswers();
   $('.question').on('click', function() {
       if ($(window).width() <= breakWidth) {
         $question = $(this);
@@ -75,6 +91,7 @@ $(document).ready(function() {
 
   var resizeTimeout;
   var resizeNavbarTimeout;
+
   $(window).on('resize', function() {
     clearTimeout(resizeTimeout);
     clearTimeout(resizeNavbarTimeout);
@@ -118,6 +135,11 @@ $(document).ready(function() {
 });
 
 
+/* ===========================================================================
+ Code to hide the FAQ Answers
+
+ run on window load an resize
+ =========================================================================== */
 //run on window load and resize
 function hideAnswers() {
   if ($(window).width() <= breakWidth) {
@@ -133,20 +155,24 @@ function hideAnswers() {
   }
 }
 
-/* map configuration */
-var map,center =  {
-                    lat :53.1683441,
-                    lng: 8.6510992
-        },
-  init = function(){
-       map = new google.maps.Map(document.querySelector('.jacobshack-map'), {
-           center: center,
-           zoom : 16,
-           scrollwheel: false,
-       });
-       var marker = new google.maps.Marker({
-           position: center,
-           map: map,
-           title: 'jacobsHack!'
-        });
+/* ===========================================================================
+    Google Maps Configuration
+    
+    Center the Map on (53.1683441, 8.6510992) -- Jacobs University
+   =========================================================================== */
+function mapInit(){
+    var center = {
+      lat: 53.1683441,
+      lng: 8.6510992
+    };
+    var map = new google.maps.Map(document.querySelector('.jacobshack-map'), {
+      center: center,
+      zoom: 16,
+      scrollwheel: false,
+    });
+    var marker = new google.maps.Marker({
+       position: center,
+       map: map,
+       title: 'jacobsHack!'
+    });
    }

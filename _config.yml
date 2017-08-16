@@ -1,7 +1,24 @@
-sass:
-    sass_dir: stylesheets/scss
+# Title and Description of the site
+# Used within the html and meta data -- so change it here
+title: jacobsHack! 2017
+description: "Hack / Build at Jacobs University's Hackathon. Nov 18 - 19."
 
+# Enabling Safe Mode
+# We need to be able to run on GitHub pages
+safe: true
+
+# We make use of https://github.com/penibelst/jekyll-compress-html to 
+# compress our html output
+# make sure to maintain all the fancy ascii art and comments
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+# Where is SASS?
+sass:
+    sass_dir: assets/_scss
+
+# Excluding 
 exclude: [
-  "stylesheets/scss", 
   ".travis.yml", "_deply", "LICENSE.txt", "README.md", "todo.md"
 ]

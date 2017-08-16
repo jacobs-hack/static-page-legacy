@@ -1,0 +1,47 @@
+- link: https://www.skyscanner.com/
+  image: assets/images/sponsoring/skyscanner.png
+  width: 450
+
+- link: https://www.twilio.com/
+  image: assets/images/sponsoring/twilio.png
+  width: 250
+
+- link: https://www.cliqz.com/
+  image: assets/images/sponsoring/cliqz-logo.svg
+  width: 250
+
+- link: https://www.yelp.com/
+  image: assets/images/sponsoring/yelp.png
+  width: 250
+
+- link: https://www.jacobs-university.de/
+  image: assets/images/sponsoring/jacobs-logo.png
+  width: 250
+
+- link: https://www.acskclothing.com/
+  image: assets/images/sponsoring/acsk-min.png
+  width: 250
+
+- link: https://mlh.io/
+  image: assets/images/sponsoring/mlh-logo.svg
+  width: 250
+
+- link: https://www.bloomberg.com/
+  image: assets/images/sponsoring/bloomberg.png
+  width: 250
+
+- link: https://gsa.jacobs.university/
+  image: assets/images/sponsoring/gsa.svg
+  width: 250
+
+- link: https://www.jetbrains.com/
+  image: assets/images/sponsoring/jetbrains.svg
+  width: 250
+
+- link: http://www.hackharassment.com
+  image: assets/images/sponsoring/hackharassment.svg
+  width: 250
+
+- link: http://get.tech/
+  image: assets/images/sponsoring/tech.png
+  width: 250
