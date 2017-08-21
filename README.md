@@ -10,7 +10,7 @@ This project is based on the HackMIT landing page.
 The `master` branch is deployed at https://jacobshack.com.
 
 
-## Build ##
+## Build (yarn) ##
 
 ### Requirements
 * ruby
@@ -26,4 +26,11 @@ npm i -g yarn gulp serve
 yarn install 
 npm run build:dev
 (on another terminal) npm run serve:dev
+~~~
+
+
+## Build (jekyll) ##
+
+~~~bash
+jekyll serve
 ~~~
