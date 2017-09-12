@@ -11,9 +11,10 @@ $(document).ready(function() {
     .transition('fade in', 1500);
 
   var $bodytag = $('html, body');
-  var $tags = $('#goto-about, #goto-faq, #goto-reg-now, #goto-footer');
+  var $tags = $('#goto-about, #goto-faq, #goto-reg-now, #goto-footer, #goto-team');
   $tags.click(function(e) {
     var elementName = e.target.id.substr(5);
+    console.log(elementName);
     if ($(window).width() <= breakWidth) {
       $bodytag.animate({
         scrollTop: $('#'+elementName).offset().top
