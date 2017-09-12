@@ -6,8 +6,8 @@
   "scripts": {
     "build": "gulp",
     "npm build:dev": "gulp watch",
-    "serve:dev": "serve dist -p 4332",
-  },
+    "serve:dev": "serve dist -p 4332"
+   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacobs-hack/static-page.git"
