@@ -1,9 +1,9 @@
 sass:
     sass_dir: stylesheets/scss
 
-exclude: [
-  "stylesheets/scss", 
-  # all the stuff neeeded previously
-  ".travis.yml", "config.rb", "deploy.sh", "gulpfile.js", "LICENSE.txt", "package.json", "README.md", "todo.md", 
-  "travis_deploy_rsa.enc", "yarn.lock"
-]
+#exclude: [
+#  "stylesheets/scss",
+#  # all the stuff neeeded previously
+#  ".travis.yml", "config.rb", "deploy.sh", "gulpfile.js", "LICENSE.txt", "package.json", "README.md", "todo.md",
+#  "travis_deploy_rsa.enc", "yarn.lock"
+#]
