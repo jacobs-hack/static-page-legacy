@@ -1,0 +1,37 @@
+- day: 18<sup>th</sup> November, 2017
+  activities:
+    - time: "09:00"
+      event: Reception
+    - time: "10:30"
+      event: Welcome Address
+    - time: "11:30"
+      event: Start Hacking
+    - time: "11:30 - 13:00"
+      event: Tech Talks
+    - time: "13:00 - 14:00"
+      event: Lunch
+    - time: "14:00 - 19:00"
+      event: Tech Talks
+    - time: "19:00"
+      event: Dinner
+    - time: "20:00 - 00:00"
+      event: Mini Games
+
+- day: 19<sup>th</sup> November, 2017
+  activities:
+    - time: "00:00"
+      event: Midnight Snacks
+    - time: "00:00 - 06:00"
+      event: More Mini Games
+    - time: "07:00"
+      event: Breakfast
+    - time: "11:30"
+      event: End of Hacking
+    - time: "12:00"
+      event: Lunch
+    - time: "13:00 - 16:00"
+      event: Final Presentations
+    - time: "16:30"
+      event: Awards
+    - time: "17:00"
+      event: The End

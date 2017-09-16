@@ -9,28 +9,17 @@ This project is based on the HackMIT landing page.
 
 The `master` branch is deployed at https://jacobshack.com.
 
+## Build and run website locally
 
-## Build (yarn) ##
+The website can be built using Jekyll. 
 
-### Requirements
-* ruby
-* compass
-* node.js 
-* git
-
-### Running the site locally
-
-Make sure to have the required apps running on you machine. Then execute
+To install jekyll, use:
 ~~~bash
-npm i -g yarn gulp serve
-yarn install 
-npm run build:dev
-(on another terminal) npm run serve:dev
+bundle install
 ~~~
 
-
-## Build (jekyll) ##
+This only has to be done once. Afterwards, you can spin up a local server with:
 
 ~~~bash
-jekyll serve
+bundle exec jekyll serve
 ~~~

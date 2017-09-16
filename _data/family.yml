@@ -1,0 +1,39 @@
+- name: Alexandra
+  email: alex@jacobshack.com
+  image: assets/images/team/alexandra.jpg
+  job: Volunteers &amp; Registration
+
+- name: Angelina
+  email: angie@jacobshack.com
+  image: assets/images/team/angelina.jpg"
+  job: The Artist
+
+- name: Esteban
+  email: tevi@jacobshack.com
+  image: assets/images/team/esteban.jpg
+  job: Logistics
+
+- name: Humza
+  email: h.abid@jacobshack.com
+  image: assets/images/team/humza.png
+  job: Sponsoring
+
+- name: Kamila
+  email: kamila.h@jacobshack.com
+  image: assets/images/team/kamila.jpg
+  job: Social Media
+
+- name: Leonhard
+  email: leo@jacobshack.com
+  image: assets/images/team/leonhard.jpg
+  job: Apparently Main Organizer
+
+- name: Natnael
+  email: nate@jacobshack.com
+  image: assets/images/team/natnael.jpg
+  job: Bot Builder
+
+- name: Siddharth
+  email: sid@jacobshack.com
+  image: assets/images/team/siddharth.jpg
+  job: Master of Bits and Bytes
