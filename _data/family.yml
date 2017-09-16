@@ -1,39 +1,34 @@
-- name: Alexandra
-  email: alex@jacobshack.com
-  image: assets/images/team/alexandra.jpg
-  job: Volunteers &amp; Registration
+- name: Bryann
+  email: bngugi@jacobshack.com
+  image: assets/images/team/bryann.png
+  job: 
 
-- name: Angelina
-  email: angie@jacobshack.com
-  image: assets/images/team/angelina.jpg"
-  job: The Artist
+- name: Ermira
+  email: esalihu@jacobshack.com
+  image: assets/images/team/ermira.png
+  job: 
 
-- name: Esteban
-  email: tevi@jacobshack.com
-  image: assets/images/team/esteban.jpg
-  job: Logistics
+- name: Gisi
+  email: gmusa@jacobshack.com
+  image: assets/images/team/gisi.png
+  job: 
 
-- name: Humza
-  email: h.abid@jacobshack.com
-  image: assets/images/team/humza.png
-  job: Sponsoring
-
-- name: Kamila
-  email: kamila.h@jacobshack.com
-  image: assets/images/team/kamila.jpg
-  job: Social Media
-
-- name: Leonhard
-  email: leo@jacobshack.com
-  image: assets/images/team/leonhard.jpg
-  job: Apparently Main Organizer
+- name: Jong
+  email: jlim@jacobshack.com
+  image: assets/images/team/jong.png
+  job: Organizer
 
 - name: Natnael
   email: nate@jacobshack.com
-  image: assets/images/team/natnael.jpg
-  job: Bot Builder
+  image: assets/images/team/natnael.png
+  job: Main Organizer
 
-- name: Siddharth
-  email: sid@jacobshack.com
-  image: assets/images/team/siddharth.jpg
-  job: Master of Bits and Bytes
+- name: Sarang
+  email: spark@jacobshack.com
+  image: assets/images/team/sarang.png
+  job: 
+
+- name: Tom
+  email: tom@jacobshack.com
+  image: assets/images/team/tom.png
+  job: IT guy
