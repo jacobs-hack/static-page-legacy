@@ -1,13 +1,13 @@
 - question: Can I attend?
-  answer: 
-    As long as you are a student or have graduated from university in past twelve months, you are eligible to participate. 
-    In order to participate, you need to follow the 
+  answer:
+    As long as you are a student or have graduated from university in past twelve months, you are eligible to participate.
+    In order to participate, you need to follow the
     <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"> MLH code of conduct</a>.
 
 - question: Does this cost money?
-  answer: 
-    Nope! 
-    Admission is free and includes food, beverages, and swag throughout the event. 
+  answer:
+    Nope!
+    Admission is free and includes food, beverages, and swag throughout the event.
 
 - question: What will I eat?
   answer:
@@ -23,28 +23,28 @@
     for you to sleep and shower.
 
 - question: What should I bring?
-  answer: 
-    Bring your laptop along with you. 
-    We’ll take care of the food, beverages, toileteries, stickers, and much more. 
+  answer:
+    Bring your laptop along with you.
+    We’ll take care of the food, beverages, toileteries, stickers, and much more.
     Feel free to bring your pillows, towels, headphones, etc.
 
 - question: How do I get there?
-  answer:  
+  answer:
     jacobsHack! takes place at an international university in Bremen, Germany.
     You can find the directions from main public transit locations
-    <a href="/trip_to_jacobshack.pdf" target="_blank">here</a>. 
-    If you’re coming from outside Bremen, we’ll try our best to provide 
+    <a href="/trip_to_jacobshack.pdf" target="_blank">here</a>.
+    If you’re coming from outside Bremen, we’ll try our best to provide
     travel reimbursements to subsidize your travel to jacobsHack!.
 
 - question: How do teams work?
   answer:
-    You can work in teams of up to 4 people. 
+    You can work in teams of up to 4 people.
 
 - question: What if I don’t have a team?
   answer:
-    If you don’t have a team now, don’t worry! 
-    We’ll have team formation and ideation events geared towards 
-    helping you find people to work with. 
+    If you don’t have a team now, don’t worry!
+    We’ll have team formation and ideation events geared towards
+    helping you find people to work with.
 
 - question: What is the application process like?
   answer:
@@ -56,14 +56,14 @@
 - question: How do I apply?
   answer:
     Simply head to our  Registration Portal. Convince
-    us why you are amazing and we will hopefully see you in Bremen in October! 
+    us why you are amazing and we will hopefully see you in Bremen in October!
     We’ll accept applicants on a rolling basis.
 
 - question: What about hardware hacks?
   answer:
-    jacobsHack! is an MLH hackathon. 
+    jacobsHack! is an MLH hackathon.
     Major League Hacking generously provides us with their
-    <a href="https://mlh.io/hardware-lab" target="_blank">hardware lab</a> 
+    <a href="https://mlh.io/hardware-lab" target="_blank">hardware lab</a>
     that includes a variety of hardware including and not limited to Arduino, Myo
     armband, Muse headband, Leap Motion, Spark Core, pebble, and Oculus.
 
@@ -74,6 +74,6 @@
 
 - question: What if this FAQ didn’t answer my questions?
   answer:
-    Please email us at <a href="mailto:team@jacobshack.com">team@jacobshack.com</a>
-    if you have any concerns at all! 
+    Please email us at <a href="mailto:info@jacobshack.com">info@jacobshack.com</a>
+    if you have any concerns at all!
     Don’t worry, we don’t bite. 😄
