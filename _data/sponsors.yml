@@ -22,13 +22,17 @@
 #  image: assets/images/sponsoring/acsk-min.png
 #  width: 250
 
-#- link: https://mlh.io/
-#  image: assets/images/sponsoring/mlh-logo.svg
-#  width: 250
+- link: https://mlh.io/
+  image: assets/images/sponsoring/mlh-logo.svg
+  width: 250
 
-#- link: https://www.bloomberg.com/
-#  image: assets/images/sponsoring/bloomberg.png
-#  width: 250
+- link: https://www.bloomberg.com/
+  image: assets/images/sponsoring/bloomberg.png
+  width: 250
+
+- link: https://www.github.com/
+  image: assets/images/sponsoring/github-logo.svg
+  width: 250  
 
 #- link: https://gsa.jacobs.university/
 #  image: assets/images/sponsoring/gsa.svg
