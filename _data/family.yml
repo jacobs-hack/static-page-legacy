@@ -1,3 +1,8 @@
+- name: Abdullah
+  email: atayyab@jacobshack.com
+  image: assets/images/team/abdullah.png
+  job: Designer
+
 - name: Bryann
   email: bngugi@jacobshack.com
   image: assets/images/team/bryann.png
@@ -23,9 +28,19 @@
   image: assets/images/team/natnael.png
   job: Main Organizer
 
+- name: Rahul
+  email: rupadhyay@jacobshack.com
+  image: assets/images/team/rahul.png
+  job: 
+
 - name: Sarang
   email: spark@jacobshack.com
   image: assets/images/team/sarang.png
+  job: 
+
+- name: Shivam
+  email: sgoraksha@jacobshack.com
+  image: assets/images/team/shivam.png
   job: 
 
 - name: Tom
