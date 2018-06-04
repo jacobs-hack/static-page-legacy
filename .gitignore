@@ -81,3 +81,6 @@ dist/
 
 # Gemfile
 Gemfile.lock
+
+# Deploy key
+id_rsa
